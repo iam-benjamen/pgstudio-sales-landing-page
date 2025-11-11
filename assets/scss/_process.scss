@@ -1,0 +1,124 @@
+/* 22. Process CSS  */
+
+.single-process-item {
+    border: 1px solid #ddd;
+    padding: 30px;
+    h4 {
+        margin-top: 30px;
+    }
+}
+
+.process-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    span {
+        font-size: 40px;
+    }
+    i {
+        font-size: 25px;
+    }
+}
+
+
+.process-down {
+    padding-top: 80px;
+    @media #{$xs}{
+        padding-top: 40px;
+    }
+}
+
+.right-content span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #171717;
+    margin-right: 15px;
+}
+
+// Owl Dots
+
+.process-wrapper .owl-dots button.owl-dot span {
+	width: 10px;
+	height: 10px;
+	background: #ddd;
+	margin-right: 10px;
+}
+
+.process-wrapper .owl-dots button.owl-dot.active span {
+	width: 35px;
+	height: 10px;
+	background: $theme_color;
+}
+
+.process-wrapper .owl-dots {
+	text-align: center;
+	margin-top: 50px;
+}
+
+// Process # 02
+
+
+.single-process-wrap {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 120px;    
+
+    .process-num {
+        position: absolute;
+        top: -10px;
+        left: -5px;
+
+        span {
+            font-size: 100px;
+            font-weight: 600;
+            color: #f0f0f0;
+        }
+    }
+
+    h4 {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+
+   
+}
+
+
+// Process # 03
+
+.process-section .cp-custom-accordion {
+    @media #{$xs}{
+        margin-top: 0;
+    }
+
+}
+
+.process-section .cp-custom-accordion .accordion-items {
+    @media #{$xs}{
+        margin-top: 0;
+    }
+
+}
+
+.process-section .cp-custom-accordion .accordion-buttons {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: capitalize;
+}
+
+.process-section .cp-custom-accordion .accordion-buttons{
+    padding-left: 0;
+    
+}
+
+.process-section .cp-custom-accordion .accordion-body{
+    padding-left: 0;
+}
+
+.process-section.section-padding.pt-0.pb-100 {
+    @media #{$xs}{
+        padding-bottom: 60px;
+    }
+    
+}

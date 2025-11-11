@@ -1,0 +1,184 @@
+/* 25. Testimonial CSS */
+
+// Testimonial # 01
+
+#testimonial-1{
+
+  .single-testimonial-item {
+    display: flex;
+    gap: 80px;
+
+    @media #{$xs}{
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 30px;
+    }
+}
+
+.testimonial-img-wrap {
+    flex: 0 0 30%;
+    img{
+        
+        @media #{$xs}{
+            width: 90px !important;
+            height: 90px;
+            border-radius: 50%;
+        }
+    }
+    
+}
+
+.testimonial-text p {
+    font-size: 24px;
+    line-height: 38px;
+    color: #3F3F3F;
+    @media #{$lg}{
+        font-size: 28px;
+    }
+    @media #{$md}{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    @media #{$xs}{
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+}
+
+.testimonial-author {
+    @media #{$md}{
+      margin-top: 15px;
+    }
+}
+
+.testimonial-author h6 {
+    font-size: 20px;
+}
+
+.testimonial-content-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+
+.testimonial-wrapper {
+    position: relative;
+
+    & .owl-nav {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        @media #{$xs}{
+            position: relative;
+            bottom: -10px;
+            right: auto;
+            left: 0;
+        }
+        
+        & button i {
+            font-size: 32px;
+            margin: 0 10px;
+            @media #{$xs}{
+                margin-left: 0;
+            }
+        }
+    }
+
+}
+
+.testimonial-item .testimonial-img-wrap img {
+    width: 80px !important;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+}
+
+// Testimonial # 02
+
+#testimonial-2 {
+
+  .single-testimonial-item {
+    border: 1px solid #eee;
+    text-align: center;
+    padding: 40px;
+
+    @media #{$xs} {
+      padding: 25px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 28px;
+      @media #{$lg} {
+        font-size: 16px;
+      }
+      @media #{$md} {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .testimonial-img img {
+    width: 90px !important;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50%;        
+  }
+
+  .testimonial-author h6 {
+    font-size: 20px;
+    color: inherit;
+  }
+}
+
+
+#testimonial-2.testimonial-section.pt-50 {
+  @media #{$xs} {
+    padding-top: 0;    
+}
+}
+
+// Owl Dots
+
+.testimonial-carousel .owl-dots button.owl-dot span {
+	width: 10px;
+	height: 10px;
+	background: #ddd;
+	margin-right: 10px;
+}
+
+.testimonial-carousel .owl-dots button.owl-dot.active span {
+	width: 35px;
+	height: 10px;
+	background: $theme_color;
+}
+
+.testimonial-carousel .owl-dots {
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+// Testimonial # 03
+
+#testimonial-3 {
+
+  .single-testimonial-item {
+    border: 1px solid #eee;
+    text-align: center;
+    padding: 40px;
+
+    @media #{$xs} {
+      padding: 25px;
+    }
+  }
+}
+
+ 
